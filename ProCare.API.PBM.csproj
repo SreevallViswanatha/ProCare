@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Repository\DTO\Clients\**" />
+    <Compile Remove="Repository\RequestValidator\**" />
+    <Compile Remove="wwwroot\**" />
+    <Content Remove="Repository\DTO\Clients\**" />
+    <Content Remove="Repository\RequestValidator\**" />
+    <Content Remove="wwwroot\**" />
+    <EmbeddedResource Remove="Repository\DTO\Clients\**" />
+    <EmbeddedResource Remove="Repository\RequestValidator\**" />
+    <EmbeddedResource Remove="wwwroot\**" />
+    <None Remove="Repository\DTO\Clients\**" />
+    <None Remove="Repository\RequestValidator\**" />
+    <None Remove="wwwroot\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.17.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+    <PackageReference Include="ServiceStack" Version="5.1.0" />
+    <PackageReference Include="ServiceStack.Api.OpenApi" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\CommonProjects\ProCare.Common\ProCare.Common.csproj" />
+    <ProjectReference Include="..\..\..\..\..\CoreCommonProjects\ProCare.API.Core\ProCare.API.Core.csproj" />
+    <ProjectReference Include="..\..\..\..\..\CoreCommonProjects\ProCare.API.PBM.Messages\ProCare.API.PBM.Messages.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Advantage.Data.Provider">
+      <HintPath>..\..\..\..\..\Libraries\ADS\10.10\Advantage.Data.Provider.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repository\RequestValidator\" />
+  </ItemGroup>
+
+</Project>
