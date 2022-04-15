@@ -1,0 +1,131 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProCare.API.Claim", "ProCare.API.Claim\ProCare.API.Claim.csproj", "{5616660E-E4B2-40A0-84D2-5D08BB1354EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProCare.API.Claims.Messages", "..\..\..\..\CoreCommonProjects\ProCare.API.Claims.Messages\ProCare.API.Claims.Messages\ProCare.API.Claims.Messages.csproj", "{27614BB7-AFEC-42C8-B8DF-987848CB4160}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProCare.NCPDP", "..\..\..\..\CoreCommonProjects\NCPDP\ProCare.NCPDP\ProCare.NCPDP.csproj", "{A9173E29-E9D9-41E2-A8F1-ED56D3865B12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProCare.API.Core", "..\..\..\..\CoreCommonProjects\ProCare.API.Core\ProCare.API.Core.csproj", "{7E2A40F7-B3AD-475E-BD62-BC3CF8139EC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProCare.Common", "..\..\..\..\CommonProjects\ProCare.Common\ProCare.Common.csproj", "{EA597FDF-E24B-4832-B552-F3D732710AB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encrypt2", "..\..\..\..\CommonProjects\Encrypt\DotNet\Encrypt2.csproj", "{30978877-E7DF-4587-8C36-284C7CF98CAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5616660E-E4B2-40A0-84D2-5D08BB1354EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5616660E-E4B2-40A0-84D2-5D08BB1354EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5616660E-E4B2-40A0-84D2-5D08BB1354EE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5616660E-E4B2-40A0-84D2-5D08BB1354EE}.Debug|x64.Build.0 = Debug|Any CPU
+		{5616660E-E4B2-40A0-84D2-5D08BB1354EE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5616660E-E4B2-40A0-84D2-5D08BB1354EE}.Debug|x86.Build.0 = Debug|Any CPU
+		{5616660E-E4B2-40A0-84D2-5D08BB1354EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5616660E-E4B2-40A0-84D2-5D08BB1354EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5616660E-E4B2-40A0-84D2-5D08BB1354EE}.Release|x64.ActiveCfg = Release|Any CPU
+		{5616660E-E4B2-40A0-84D2-5D08BB1354EE}.Release|x64.Build.0 = Release|Any CPU
+		{5616660E-E4B2-40A0-84D2-5D08BB1354EE}.Release|x86.ActiveCfg = Release|Any CPU
+		{5616660E-E4B2-40A0-84D2-5D08BB1354EE}.Release|x86.Build.0 = Release|Any CPU
+		{27614BB7-AFEC-42C8-B8DF-987848CB4160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27614BB7-AFEC-42C8-B8DF-987848CB4160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27614BB7-AFEC-42C8-B8DF-987848CB4160}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{27614BB7-AFEC-42C8-B8DF-987848CB4160}.Debug|x64.Build.0 = Debug|Any CPU
+		{27614BB7-AFEC-42C8-B8DF-987848CB4160}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{27614BB7-AFEC-42C8-B8DF-987848CB4160}.Debug|x86.Build.0 = Debug|Any CPU
+		{27614BB7-AFEC-42C8-B8DF-987848CB4160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27614BB7-AFEC-42C8-B8DF-987848CB4160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27614BB7-AFEC-42C8-B8DF-987848CB4160}.Release|x64.ActiveCfg = Release|Any CPU
+		{27614BB7-AFEC-42C8-B8DF-987848CB4160}.Release|x64.Build.0 = Release|Any CPU
+		{27614BB7-AFEC-42C8-B8DF-987848CB4160}.Release|x86.ActiveCfg = Release|Any CPU
+		{27614BB7-AFEC-42C8-B8DF-987848CB4160}.Release|x86.Build.0 = Release|Any CPU
+		{A9173E29-E9D9-41E2-A8F1-ED56D3865B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9173E29-E9D9-41E2-A8F1-ED56D3865B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9173E29-E9D9-41E2-A8F1-ED56D3865B12}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A9173E29-E9D9-41E2-A8F1-ED56D3865B12}.Debug|x64.Build.0 = Debug|Any CPU
+		{A9173E29-E9D9-41E2-A8F1-ED56D3865B12}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A9173E29-E9D9-41E2-A8F1-ED56D3865B12}.Debug|x86.Build.0 = Debug|Any CPU
+		{A9173E29-E9D9-41E2-A8F1-ED56D3865B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9173E29-E9D9-41E2-A8F1-ED56D3865B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9173E29-E9D9-41E2-A8F1-ED56D3865B12}.Release|x64.ActiveCfg = Release|Any CPU
+		{A9173E29-E9D9-41E2-A8F1-ED56D3865B12}.Release|x64.Build.0 = Release|Any CPU
+		{A9173E29-E9D9-41E2-A8F1-ED56D3865B12}.Release|x86.ActiveCfg = Release|Any CPU
+		{A9173E29-E9D9-41E2-A8F1-ED56D3865B12}.Release|x86.Build.0 = Release|Any CPU
+		{7E2A40F7-B3AD-475E-BD62-BC3CF8139EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E2A40F7-B3AD-475E-BD62-BC3CF8139EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E2A40F7-B3AD-475E-BD62-BC3CF8139EC8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7E2A40F7-B3AD-475E-BD62-BC3CF8139EC8}.Debug|x64.Build.0 = Debug|Any CPU
+		{7E2A40F7-B3AD-475E-BD62-BC3CF8139EC8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7E2A40F7-B3AD-475E-BD62-BC3CF8139EC8}.Debug|x86.Build.0 = Debug|Any CPU
+		{7E2A40F7-B3AD-475E-BD62-BC3CF8139EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E2A40F7-B3AD-475E-BD62-BC3CF8139EC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E2A40F7-B3AD-475E-BD62-BC3CF8139EC8}.Release|x64.ActiveCfg = Release|Any CPU
+		{7E2A40F7-B3AD-475E-BD62-BC3CF8139EC8}.Release|x64.Build.0 = Release|Any CPU
+		{7E2A40F7-B3AD-475E-BD62-BC3CF8139EC8}.Release|x86.ActiveCfg = Release|Any CPU
+		{7E2A40F7-B3AD-475E-BD62-BC3CF8139EC8}.Release|x86.Build.0 = Release|Any CPU
+		{EA597FDF-E24B-4832-B552-F3D732710AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA597FDF-E24B-4832-B552-F3D732710AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA597FDF-E24B-4832-B552-F3D732710AB4}.Debug|x64.ActiveCfg = Debug|x64
+		{EA597FDF-E24B-4832-B552-F3D732710AB4}.Debug|x64.Build.0 = Debug|x64
+		{EA597FDF-E24B-4832-B552-F3D732710AB4}.Debug|x86.ActiveCfg = Debug|x86
+		{EA597FDF-E24B-4832-B552-F3D732710AB4}.Debug|x86.Build.0 = Debug|x86
+		{EA597FDF-E24B-4832-B552-F3D732710AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA597FDF-E24B-4832-B552-F3D732710AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA597FDF-E24B-4832-B552-F3D732710AB4}.Release|x64.ActiveCfg = Release|x64
+		{EA597FDF-E24B-4832-B552-F3D732710AB4}.Release|x64.Build.0 = Release|x64
+		{EA597FDF-E24B-4832-B552-F3D732710AB4}.Release|x86.ActiveCfg = Release|x86
+		{EA597FDF-E24B-4832-B552-F3D732710AB4}.Release|x86.Build.0 = Release|x86
+		{30978877-E7DF-4587-8C36-284C7CF98CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30978877-E7DF-4587-8C36-284C7CF98CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30978877-E7DF-4587-8C36-284C7CF98CAC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{30978877-E7DF-4587-8C36-284C7CF98CAC}.Debug|x64.Build.0 = Debug|Any CPU
+		{30978877-E7DF-4587-8C36-284C7CF98CAC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{30978877-E7DF-4587-8C36-284C7CF98CAC}.Debug|x86.Build.0 = Debug|Any CPU
+		{30978877-E7DF-4587-8C36-284C7CF98CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30978877-E7DF-4587-8C36-284C7CF98CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30978877-E7DF-4587-8C36-284C7CF98CAC}.Release|x64.ActiveCfg = Release|Any CPU
+		{30978877-E7DF-4587-8C36-284C7CF98CAC}.Release|x64.Build.0 = Release|Any CPU
+		{30978877-E7DF-4587-8C36-284C7CF98CAC}.Release|x86.ActiveCfg = Release|Any CPU
+		{30978877-E7DF-4587-8C36-284C7CF98CAC}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA535104-E540-44C4-BADC-299B2CEDB93A}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs-dt-04:8080/tfs/applications
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\..\\..\\..\\CoreCommonProjects\\ProCare.API.Claims.Messages\\ProCare.API.Claims.Messages\\ProCare.API.Claims.Messages.csproj
+		SccProjectName1 = ../../../../CoreCommonProjects/ProCare.API.Claims.Messages/ProCare.API.Claims.Messages
+		SccLocalPath1 = ..\\..\\..\\..\\CoreCommonProjects\\ProCare.API.Claims.Messages\\ProCare.API.Claims.Messages
+		SccProjectUniqueName2 = ..\\..\\..\\..\\CoreCommonProjects\\NCPDP\\ProCare.NCPDP\\ProCare.NCPDP.csproj
+		SccProjectName2 = ../../../../CoreCommonProjects/NCPDP/ProCare.NCPDP
+		SccLocalPath2 = ..\\..\\..\\..\\CoreCommonProjects\\NCPDP\\ProCare.NCPDP
+		SccProjectUniqueName3 = ..\\..\\..\\..\\CoreCommonProjects\\ProCare.API.Core\\ProCare.API.Core.csproj
+		SccProjectName3 = ../../../../CoreCommonProjects/ProCare.API.Core
+		SccLocalPath3 = ..\\..\\..\\..\\CoreCommonProjects\\ProCare.API.Core
+		SccProjectUniqueName4 = ..\\..\\..\\..\\CommonProjects\\ProCare.Common\\ProCare.Common.csproj
+		SccProjectName4 = ../../../../CommonProjects/ProCare.Common
+		SccLocalPath4 = ..\\..\\..\\..\\CommonProjects\\ProCare.Common
+		SccProjectUniqueName5 = ProCare.API.Claim\\ProCare.API.Claim.csproj
+		SccProjectName5 = ProCare.API.Claim
+		SccLocalPath5 = ProCare.API.Claim
+		SccProjectUniqueName6 = ..\\..\\..\\..\\CommonProjects\\Encrypt\\DotNet\\Encrypt2.csproj
+		SccProjectName6 = ../../../../CommonProjects/Encrypt/DotNet
+		SccLocalPath6 = ..\\..\\..\\..\\CommonProjects\\Encrypt\\DotNet
+	EndGlobalSection
+EndGlobal

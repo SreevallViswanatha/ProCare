@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProCare.Common", "..\..\..\..\CommonProjects\ProCare.Common\ProCare.Common.csproj", "{95962DFB-7E86-4D6F-A159-E279472FD089}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProCare.API.Pharmacy", "ProCare.API.Pharmacy\ProCare.API.Pharmacy.csproj", "{6205E465-88E5-4B64-AD3A-FDFAE53D0FB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProCare.API.Core", "..\..\..\..\CoreCommonProjects\ProCare.API.Core\ProCare.API.Core.csproj", "{24D25585-96A8-4529-914D-933EC17FCD76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProCare.API.Pharmacy.Messages", "..\..\..\..\CoreCommonProjects\ProCare.API.Pharmacy.Messages\ProCare.API.Pharmacy.Messages.csproj", "{C7E6D9BE-7427-479D-A961-E7C4BCFF1904}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProCare.API.Pharmacy.Tests", "ProCare.API.Pharmacy.Tests\ProCare.API.Pharmacy.Tests.csproj", "{ACB712DF-9697-4E10-A457-7A4F4B6D9CA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProCare.NCPDP", "..\..\..\..\CoreCommonProjects\NCPDP\ProCare.NCPDP\ProCare.NCPDP.csproj", "{0F24E703-A423-4813-90A7-373DCB94EA9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProCare.API.Claims.Messages", "..\..\..\..\CoreCommonProjects\ProCare.API.Claims.Messages\ProCare.API.Claims.Messages\ProCare.API.Claims.Messages.csproj", "{169F08EB-075E-4CC2-B9FD-B924FD20D0D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProCare.API.SureScripts.Messages", "..\..\..\..\CoreCommonProjects\ProCare.API.SureScripts.Messages\ProCare.API.SureScripts.Messages\ProCare.API.SureScripts.Messages.csproj", "{25E99729-8801-4D31-AD0C-B9615200ABA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95962DFB-7E86-4D6F-A159-E279472FD089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95962DFB-7E86-4D6F-A159-E279472FD089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95962DFB-7E86-4D6F-A159-E279472FD089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95962DFB-7E86-4D6F-A159-E279472FD089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6205E465-88E5-4B64-AD3A-FDFAE53D0FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6205E465-88E5-4B64-AD3A-FDFAE53D0FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6205E465-88E5-4B64-AD3A-FDFAE53D0FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6205E465-88E5-4B64-AD3A-FDFAE53D0FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D25585-96A8-4529-914D-933EC17FCD76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D25585-96A8-4529-914D-933EC17FCD76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D25585-96A8-4529-914D-933EC17FCD76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D25585-96A8-4529-914D-933EC17FCD76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E6D9BE-7427-479D-A961-E7C4BCFF1904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E6D9BE-7427-479D-A961-E7C4BCFF1904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E6D9BE-7427-479D-A961-E7C4BCFF1904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E6D9BE-7427-479D-A961-E7C4BCFF1904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB712DF-9697-4E10-A457-7A4F4B6D9CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB712DF-9697-4E10-A457-7A4F4B6D9CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB712DF-9697-4E10-A457-7A4F4B6D9CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB712DF-9697-4E10-A457-7A4F4B6D9CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F24E703-A423-4813-90A7-373DCB94EA9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F24E703-A423-4813-90A7-373DCB94EA9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F24E703-A423-4813-90A7-373DCB94EA9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F24E703-A423-4813-90A7-373DCB94EA9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169F08EB-075E-4CC2-B9FD-B924FD20D0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169F08EB-075E-4CC2-B9FD-B924FD20D0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169F08EB-075E-4CC2-B9FD-B924FD20D0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169F08EB-075E-4CC2-B9FD-B924FD20D0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E99729-8801-4D31-AD0C-B9615200ABA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E99729-8801-4D31-AD0C-B9615200ABA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E99729-8801-4D31-AD0C-B9615200ABA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E99729-8801-4D31-AD0C-B9615200ABA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF3F56C0-B1CC-43F6-8A93-35BE3DCFCCFB}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs-dt-05.bispro.com:8080/tfs/applications
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\..\\..\\..\\CommonProjects\\ProCare.Common\\ProCare.Common.csproj
+		SccProjectName1 = ../../../../CommonProjects/ProCare.Common
+		SccLocalPath1 = ..\\..\\..\\..\\CommonProjects\\ProCare.Common
+		SccProjectUniqueName2 = ProCare.API.Pharmacy\\ProCare.API.Pharmacy.csproj
+		SccProjectName2 = ProCare.API.Pharmacy
+		SccLocalPath2 = ProCare.API.Pharmacy
+		SccProjectUniqueName3 = ..\\..\\..\\..\\CoreCommonProjects\\ProCare.API.Core\\ProCare.API.Core.csproj
+		SccProjectName3 = ../../../../CoreCommonProjects/ProCare.API.Core
+		SccLocalPath3 = ..\\..\\..\\..\\CoreCommonProjects\\ProCare.API.Core
+		SccProjectUniqueName4 = ..\\..\\..\\..\\CoreCommonProjects\\ProCare.API.Pharmacy.Messages\\ProCare.API.Pharmacy.Messages.csproj
+		SccProjectName4 = ../../../../CoreCommonProjects/ProCare.API.Pharmacy.Messages
+		SccLocalPath4 = ..\\..\\..\\..\\CoreCommonProjects\\ProCare.API.Pharmacy.Messages
+		SccProjectUniqueName5 = ProCare.API.Pharmacy.Tests\\ProCare.API.Pharmacy.Tests.csproj
+		SccProjectName5 = ProCare.API.Pharmacy.Tests
+		SccLocalPath5 = ProCare.API.Pharmacy.Tests
+		SccProjectUniqueName6 = ..\\..\\..\\..\\CoreCommonProjects\\NCPDP\\ProCare.NCPDP\\ProCare.NCPDP.csproj
+		SccProjectName6 = ../../../../CoreCommonProjects/NCPDP/ProCare.NCPDP
+		SccLocalPath6 = ..\\..\\..\\..\\CoreCommonProjects\\NCPDP\\ProCare.NCPDP
+		SccProjectUniqueName7 = ..\\..\\..\\..\\CoreCommonProjects\\ProCare.API.Claims.Messages\\ProCare.API.Claims.Messages\\ProCare.API.Claims.Messages.csproj
+		SccProjectName7 = ../../../../CoreCommonProjects/ProCare.API.Claims.Messages/ProCare.API.Claims.Messages
+		SccLocalPath7 = ..\\..\\..\\..\\CoreCommonProjects\\ProCare.API.Claims.Messages\\ProCare.API.Claims.Messages
+		SccProjectUniqueName8 = ..\\..\\..\\..\\CoreCommonProjects\\ProCare.API.SureScripts.Messages\\ProCare.API.SureScripts.Messages\\ProCare.API.SureScripts.Messages.csproj
+		SccProjectName8 = ../../../../CoreCommonProjects/ProCare.API.SureScripts.Messages/ProCare.API.SureScripts.Messages
+		SccLocalPath8 = ..\\..\\..\\..\\CoreCommonProjects\\ProCare.API.SureScripts.Messages\\ProCare.API.SureScripts.Messages
+	EndGlobalSection
+EndGlobal
